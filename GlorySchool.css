@@ -1,0 +1,107 @@
+body{
+    color: blue;
+    font-size: 15px;
+    background-color: white;
+    padding: 0;
+    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+header{
+    background: #6acbffff;
+    text-align: justify;
+    padding: 15px;
+}
+
+.name{
+    font-size: 50px;
+    padding: 15px;
+    text-align: center;
+}
+
+.contact{
+ background-image: url(pupils.png);
+ background-repeat: no-repeat;
+ background-position: cover;
+ background-size: 100% 100%;
+ min-height: 500px;
+ text-align: center;
+ padding: 15px;   
+ font-size: 30px;
+ margin-bottom: ;
+
+}
+
+#images{
+    margin-top: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+} 
+
+.coloumn{
+    float: left;
+    width: 30%;
+    padding: 15px;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+#offer{
+    font-size: 30px;
+    background: #6affb6;
+    padding: 5px;
+    float: ;
+
+}
+
+footer{
+    padding: 15px;
+    background: #aaffdf;
+    text-align: center;
+}
+
+.form{
+    font-size: 30px;
+    padding: 25px;
+    background: #6acbffff;
+    text-align: justify;
+    float: ;
+}
+
+aside{
+    text-align: center;
+    width: 80%;
+    font-size: 30px;
+    margin-top: 10px;
+    padding: 15px;
+    margin-left: 50px;
+    margin-right: 40px;
+}
+
+a{
+    color: blue;
+
+}
+
+button{
+    width: 100px;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: large;
+    color: blue;
+    border-color: blue;
+    box-shadow: grey;
+    transition: opacity;
+}
+
+button:hover{
+    background: white;
+    color: rgb(16, 33, 183);
+    f
+}
+
